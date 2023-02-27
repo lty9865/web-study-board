@@ -7,4 +7,6 @@ CREATE TABLE member(
 	admin number(1) default 0
 );
 
-INSERT INTO MEMBER values('이소미','somi','1234','gmd@naver.com','010-1234-1234',0)
+INSERT INTO MEMBER values('이소미','somi','1234','gmd@naver.com','010-1234-1234',0);
+
+SELECT * FROM member
